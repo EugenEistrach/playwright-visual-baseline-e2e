@@ -1,0 +1,13 @@
+{
+  "name": "playwright-visual-baseline-e2e",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Minimal Playwright visual regression fixture for ecom_toolkit_v2 end-to-end verification.",
+  "scripts": {
+    "test": "playwright test",
+    "test:update": "playwright test --update-snapshots"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0"
+  }
+}
